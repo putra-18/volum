@@ -1,0 +1,96 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Bad+Script&family=Poppins:wght@300&family=Source+Sans+Pro:wght@300&display=swap");
+
+@font-face {
+  font-family: radnika;
+  src: url(../font/Radnika-Medium.otf) format("OpenType");
+}
+@font-face {
+  font-family: aqua;
+  src: url(../font/aqua.ttf) format("truetype");
+}
+
+.main {
+  /* overflow-x: hidden; */
+}
+
+.left {
+  /* border: 1px solid red; */
+  box-sizing: border-box;
+  font-family: radnika;
+  font-weight: bold;
+  padding: 20px 0 20px 15px;
+  background-color: #66aac5;
+  letter-spacing: 2px;
+  font-size: large;
+  width: 38%;
+  color: white;
+  overflow-y: scroll;
+}
+
+select {
+  height: 28px;
+  border-radius: 5px;
+  height: 33px;
+  border: none;
+}
+
+.reserv-constant1,
+.reserv-constant2,
+.reserv-constant3,
+.reserv-constant4,
+.reserv-constant5,
+.reserv-constant6,
+.reserv-constant7,
+.reserv-constant8,
+.reserv-constant9,
+.reserv-constant10,
+.reserv-constant11,
+.reserv-constant12,
+.reserv-constant13 {
+  display: none;
+}
+
+input {
+  width: 100px;
+  margin-right: 7px;
+  border-radius: 5px;
+  height: 33px;
+  border: none;
+}
+
+.calculate {
+  text-align: center;
+}
+
+.right {
+  /* border: 1px solid yellowgreen; */
+  background-color: #e0e0e0;
+  font-size: 20px;
+  padding-left: 8px;
+  padding: 20px;
+  box-sizing: border-box;
+  color: black;
+  /* font-family: aqua; */
+  font-family: "Source Sans Pro", sans-serif;
+  width: 65%;
+}
+
+.right section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.right .result {
+  font-weight: bolder;
+  font-size: x-large;
+}
+
+.right .text {
+  text-align: justify;
+  margin-top: 30px;
+}
